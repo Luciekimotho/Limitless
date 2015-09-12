@@ -1,0 +1,11 @@
+#logo{
+display: inline-block;
+float: left;
+width: 20%;
+    height: 100px;
+}
+
+#limitless{
+display: inline-block;
+    width: 70%;
+}
