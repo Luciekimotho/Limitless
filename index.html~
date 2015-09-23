@@ -103,17 +103,12 @@ LIMITLESS was launched on the 30th of October 2011.</p><br><br><br><br><br><br><
 
         </div>
 
-        <div id="contact"><center>
-            <h3>CONTACTS</h3>
-            <p>We have our services every Sunday 12:00- 2:00 pm at Nairobi Primary. You are welcomed t join us<br>Phone:0717111111</p>
+        <div id="contact">
+            <h3>CONTACT US</h3>
+            <p>We have our services every Sunday 12:00- 2:00 pm at Nairobi Primary. You are welcomed t join us</p>
             <a href="">Limitless Mamlaka</a>
             <a href="">limitlessmamlaka</a>
-             <br>Talk to us.<br>
-             Email: <input type="text" name="email"><br>
-             Your say:<textarea> </textarea> <br>
-            <br> <input type="submit" name="Submit" value="Submit">
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </center>
         </div>
     </body>
 </html>
