@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--For mobile support-->
         <title>Limitless Mamlaka</title>
         <link rel="stylesheet" href="style/style.css" type="text/css">
         <!--Material Design Lite links-->
@@ -10,17 +11,27 @@
     </head>
 
     <body>
-        <div id = "navmenu">
-        <nav>
-            <ul>
-            <li> <a href="#home"> Home</a></li>
-            <li><a href="#about"> About Limitless</a></li>
-            <li><a href="#ministries"> Ministries</a></li>
-            <li><a href="#sermons"> Semons</a></li>
-            <li><a href="#contact"> Contact</a></li>
-           </ul>
-        </nav>
+<div class="demo-layout-transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header  mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title"><img src="assets/limitless%20logo%20final.jpg" height="60px" width="90px"></span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">HOME</a>
+        <a class="mdl-navigation__link" href="#about">ABOUT</a>
+        <a class="mdl-navigation__link" href="#ministries">MINISTRIES</a>
+        <a class="mdl-navigation__link" href="sermons">SERMONS</a>
+        <a class="mdl-navigation__link" href="contact">CONTACT</a>
+      </nav>
     </div>
+  </header>
+  <main class="mdl-layout__content">
+  </main>
+</div>
+
 
 
         <div id= "home">
