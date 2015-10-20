@@ -14,28 +14,18 @@ body{
 
 
 #home{
-   /*background: url('../limitless.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
-   height: 600px;
-   text-align: center;
-   padding: 0px;*/
-    /*opacity: 0.4;*/
 }
 
 #about{
-    padding-top: 70px;
     text-align: center;
 }
 
 #sermons{
-     padding-top: 70px;
      clear: both;
      text-align: center;
 }
 
 #ministries{
-    padding-top: 70px;
     text-align: center;
     align-items: center;
 }

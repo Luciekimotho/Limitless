@@ -82,17 +82,30 @@
   </div>
 
   <div id="about">
-            <h3>ABOUT LIMITLESS</h3>
-            <p>Mission:Transforming today's youth into radical, empowering and influential followers of Christ.<br>
-            Core values:
+            <h4>ABOUT LIMITLESS</h4>
+<div class="row">
+    <div class="col s12 m12 l6">
+            <p><h6>Mission:</h6><br>Transforming today's youth into radical, empowering and influential followers of Christ.<br>
+                <h6>Core values:</h6>
+    The word<br>
+    Prayer<br>
+    Excellence<br>
+    Audacity<br>
+    Authenticity<br>
+    Love<br>
+</p>
+    </div>
+
+    <div class="col s12 m6 l6">
                 <h5>Brief history</h5>
-                Limitless youth ministry was birthed out of the felt need to reach out to college age youth (18-25 year olds) who form a   significant part of the population of Nairobi city and its environs.<br>Apart from the University of Nairobi student populace (predominantly served by the SALT ministry), Mamlaka Hill Chapel is within walking distance of several other Colleges and University campuses whose student population is mainly un-churched and unreached. Limitless exists to reach that particular demographic.<br>
+                <p class="more">Limitless youth ministry was birthed out of the felt need to reach out to college age youth (18-25 year olds) who form a   significant part of the population of Nairobi city and its environs.<br>Apart from the University of Nairobi student populace (predominantly served by the SALT ministry), Mamlaka Hill Chapel is within walking distance of several other Colleges and University campuses whose student population is mainly un-churched and unreached. Limitless exists to reach that particular demographic.<br>
 
             Our key aim is to evangelize, disciple and equip young people to reach other young people with the love of Christ. We hold firmly that in today’s world, peer influence is a key factor in youth behavior and so we seek to use that to our advantage.<br>LIMITLESS seeks to address real issues facing today’s youth with the word of God. The Bible is our guide and we unapologetically champion the Biblical world view on life and beyond.<br>LIMITLESS was launched on the 30th of October 2011.</p>
-        </div>
+    </div></div>
+    </div>
 
 <div id="ministries">
-    <h3>MINISTRIES</h3>
+    <h4>MINISTRIES</h4>
     <p>Limitless has a number of ministries that enables Limitless members to be faithfully plugged in and to be active soldiers of Christ. All limitlessers are encouraged to join a ministry and use their gifts, talents and resources to serve God. </p>
     <div class="row">
     <div class="col s12 m6 l3 demo-3"><p>
@@ -290,11 +303,18 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
         <!--Links for smooth scroll-->
         <script type="text/javascript" src="js/smoothscroll.js"></script>
+<script src="shorten.js"></script>
 
         <script>
             $(document).ready(function(){
                  $('.slider').slider({full_width: true});
              });
+        </script>
+
+        <script>
+           $(document).ready(function() {
+              $(".more").shorten();
+           });
         </script>
     </body>
 </html>
